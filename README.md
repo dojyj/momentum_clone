@@ -2,7 +2,7 @@ Momentum Clone Coding Using javascript
 https://www.momentumdash.com/
 ==================================================
 
-![main](/images/momentumClone.JPG){: width="100%" height="100%"}
+![main](/images/momentumClone.JPG)
 ### function
 
 + clock
