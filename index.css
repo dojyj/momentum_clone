@@ -1,0 +1,105 @@
+body{
+    box-sizing: border-box;
+    margin-right: 3%;
+}
+
+.header{
+    text-align: right;
+    margin: 3% 0px 10% 0px;
+    padding: 0;
+}
+
+.js-weather{
+    font-size: 1em;
+    color: #eeeeee;
+}
+
+.js-clock > h1 {
+    color: white;
+    font-size: 5em;
+}
+
+.blank-space {
+    width: 70%;
+    height: 100%;
+}
+
+.main-content {
+    width: 320px;
+    height: 100%;
+    float: right;
+    text-align: right;
+}
+
+.content-container {
+    margin: 0 0 5em 0;
+    text-align: right;
+}
+
+.list-container {
+    text-align: right;
+    margin-left: 25%;
+}
+
+.js-toDoList {
+    list-style: none;
+    max-width: 250px;
+    width: 100%;
+}
+
+.js-toDoList > li, .js-toDoList{
+    margin-bottom: 5px;
+    padding: 5px 0px 5px 5px;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 1em;
+    overflow: hidden;
+}
+
+.js-toDoList > li:last-child{
+    border-bottom: 0px;
+}
+
+.js-toDoList > li::before{
+    content: ">";
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px 5px 6px 0px;
+    color: #eeeeee;
+}
+
+.js-toDoList > li > span{
+    overflow: hidden;
+}
+
+.js-logout,
+.js-greeting,
+.form {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+.btn-showing {
+    display: inline-block;
+}
+
+.bgImage {
+    position: absolute;
+    top : 0;
+    left : 0;
+    width : 100%;
+    height : 100%;
+    z-index : -1;
+    animation: fadeIn 0.5s linear;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
